@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+.box_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.4);
+}
+
+.title_login {
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+input {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: #ffff;
+  background-color: transparent;
+  border: 1px solid #ffff;
+  padding: 5px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ffff;
+  font-size: x-small;
+}
+
+small {
+  color: #ffff;
+  font-weight: 500;
+}
+
+small:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+}
+
+.button_sigin {
+  background-color: rgb(67, 16, 237);
+  color: #ffff;
+  font-weight: 600;
+  padding: 6px 70px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.button_sigin:hover {
+  background-color: rgb(29, 251, 4);
+  cursor: pointer;
+  color: black;
+}
+
+.register {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.register:hover {
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.group_button {
+  margin-top: 10px;
+}
+
+.group_button button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.group_button button:hover {
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.errorInput {
+  border: 1px solid #ff0000 !important;
+}

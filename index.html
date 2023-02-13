@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="title">Formulário de Login</h1>
+    <div class="box_login">
+        <div class="container">
+            <h1 class="title_login">Login</h1>
+            <form>
+                <div>
+                    <input type="email" id="email" placeholder="email" nome="email" required>
+                </div>
+                <div>
+                    <input type="password" id="password" placeholder="min. 6 dígitos" nome="password" required>
+                </div>
+            </form>
+            <div>
+                <small>Esqueceu a senha?</small>
+            </div>
+            <button type="submit" id="button_sigin" class="button_sigin">
+                Entrar
+            </button>
+            <div class="register">
+                <a>Criar uma conta</a>
+            </div>
+            <div>
+                <small>ou entre com sua mídia social </small>
+            </div>
+            <div class="group_button">
+                <button>
+                    <img src="/assets/img/linkedin.png">
+                </button>
+                <button>
+                    <img src="/assets/img/google.png">
+                </button>
+                <button>
+                    <img src="/assets/img/facebook.png">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
