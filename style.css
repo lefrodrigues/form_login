@@ -116,6 +116,4 @@ small:hover {
   backdrop-filter: blur(10px);
 }
 
-.errorInput {
-  border: 1px solid #ff0000 !important;
-}
+
